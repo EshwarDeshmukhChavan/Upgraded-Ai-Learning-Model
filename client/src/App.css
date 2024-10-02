@@ -16,7 +16,10 @@ body {
 
 h1 {
   text-align: center;
-  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px; /* Space between input groups */
 }
 
 .prompt-input {
@@ -25,18 +28,17 @@ h1 {
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-bottom: 10px; /* Space between input and button */
 }
 
 .generate-button {
-  display: block;
-  width: 100%; /* Full width */
-  padding: 10px;
-  font-size: 16px;
-  color: white;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
+  width: calc(100%); /* Match input width */
+  padding: 10px; /* Padding for button */
+  font-size: 16px; /* Font size for button */
+  color: white; /* Text color */
+  background-color: #007bff; /* Button color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 10px; /* Space between input and button */
 }
 
 .generate-button:hover {
@@ -44,7 +46,7 @@ h1 {
 }
 
 .content-area {
-  margin-top: 20px; /* Space above content area */
+  margin-top: 10px; /* Space above content area */
   padding: 15px; /* Padding inside content area */
   border: 1px solid #ddd; /* Light gray border */
   border-radius: 5px; /* Rounded corners */
